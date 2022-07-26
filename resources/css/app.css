@@ -1,8 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-body {
-    background-color: #6b7280;
+* {
+    margin: 0;
+    padding: 0;
 }
 .title {
     color: whitesmoke;
 }
+.router-link-exact-active {
+    font-weight: bold;
+    border-top: 3px solid #DC3545;
+}
+.form-control {
+    border-bottom: 2px solid black;
+}
+.form-control:focus {
+    border-bottom: 2px solid #DC3545;
+    box-shadow: none;
+}
+
+.btn:active {
+    background-color: white;
+    border: 2px solid #DC3545;
+    color: #DC3545;
+    font-weight: bold;
+}
+
+
+
